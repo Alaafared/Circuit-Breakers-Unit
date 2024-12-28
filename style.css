@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #e0eafc, #cfdef3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+#quiz-title, #question-number {
+    font-size: 1.5rem;
+    color: #0d6efd; /* لون أزرق موحد */
+}
+
+#question-number, h2 {
+    font-size: 1.2rem;
+    color: #dc3545; /* لون أحمر موحد */
+}
+
+#quiz-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+#question-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px dashed #000; /* لون أسود موحد للحد */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.choice {
+    padding: 15px 20px;
+    border: 1px solid #0d6efd; /* إضافة حد أزرق */
+    margin: 10px auto;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s, border-color 0.3s; /* إضافة انتقال للحد */
+    background-color: #fff;
+    font-size: 1.2rem; /* تقليل حجم الخط قليلاً */
+    font-weight: 500;
+    display: block;
+}
+
+.choice:hover {
+    background-color: #e8f0fe;
+    transform: scale(1.02);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+    border-color: #0b5ed7; /* تغيير لون الحد عند التمرير */
+}
+
+.correct {
+    background-color: #28a745; /* لون أخضر أفضل */
+    color: #fff;
+    border-color: #28a745; /* تطابق لون الحد والخلفية */
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.5); /* توهج أخضر خفيف */
+}
+
+.incorrect {
+    background-color: #dc3545; /* لون أحمر أفضل */
+    color: #fff;
+    border-color: #dc3545;/* تطابق لون الحد والخلفية */
+    box-shadow: 0 0 10px rgba(220, 53, 69, 0.5); /* توهج أحمر خفيف */
+}
+
+#next-question, #submit-quiz {
+    padding: 12px 25px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    font-size: 1.1em;
+    transition: background-color 0.3s, transform 0.2s;
+    display: block;
+    width: fit-content;
+}
+
+#next-question:hover, #submit-quiz:hover {
+    background-color: #0b5ed7;
+    transform: scale(1.05);
+}
+
+#result-message {
+    font-size: 1.2em;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#footer { /* تنسيق أفضل للفوتر */
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 20px;
+}
