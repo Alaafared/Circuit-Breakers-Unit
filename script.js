@@ -17,7 +17,7 @@ const questions = [
         image: "image/question1.jpg",
         choices: [
             { text: "مأخذ تيار كهربي لقمة بريزة ماجيك 10 امبير", correct: true },
-            { text: "بريزة عادية", correct: false },
+            { text: "قاطع ثلاثي", correct: false },
             { text: "مأخذ قوى كهربية", correct: false }
         ]
     },
