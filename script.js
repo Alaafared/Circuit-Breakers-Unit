@@ -52,7 +52,7 @@ const questions = [
         choices: [
             { text: "لقم برايز", correct: false },
             { text: "لقم مفاتيح", correct: false },
-            { text: "شلسيه 3 فتحة", correct: true }
+            { text: "شاسيه 3 فتحة", correct: true }
         ]
     },
     {
