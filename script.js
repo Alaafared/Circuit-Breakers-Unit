@@ -12,12 +12,12 @@ function shuffleChoices(question) {
 }
 
 const questions = [
-    {
+     {
         title: "اختر اسم الشكل الذي امامك",
         image: "image/question1.jpg",
         choices: [
             { text: "مأخذ تيار كهربي لقمة بريزة ماجيك 10 امبير", correct: true },
-            { text: "قاطع ثلاثي", correct: false },
+            { text: "بريزة عادية", correct: false },
             { text: "مأخذ قوى كهربية", correct: false }
         ]
     },
@@ -52,7 +52,7 @@ const questions = [
         choices: [
             { text: "لقم برايز", correct: false },
             { text: "لقم مفاتيح", correct: false },
-            { text: "شاسيه 3 فتحة", correct: true }
+            { text: "شلسيه 3 فتحة", correct: true }
         ]
     },
     {
@@ -206,8 +206,8 @@ const questions = [
     title: "",
     image: "image/question22.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: false },
-        { text: "اجابة خاطئة", correct: true },
+        { text: "عبارة صحيحة", correct: false },
+        { text: "عبارة خاطئة", correct: true },
        
 ]
 
@@ -217,8 +217,8 @@ const questions = [
     title: "",
     image: "image/question23.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -228,8 +228,8 @@ const questions = [
     title: "",
     image: "image/question24.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -239,8 +239,8 @@ const questions = [
     title: "",
     image: "image/question25.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -250,8 +250,8 @@ const questions = [
     title: "",
     image: "image/question26.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -261,8 +261,8 @@ const questions = [
     title: "",
     image: "image/question27.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -272,8 +272,8 @@ const questions = [
     title: "",
     image: "image/question28.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -283,8 +283,8 @@ const questions = [
     title: "",
     image: "image/question29.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -294,8 +294,8 @@ const questions = [
     title: "",
     image: "image/question30.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -305,8 +305,8 @@ const questions = [
     title: "",
     image: "image/question31.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: false },
-        { text: "اجابة خاطئة", correct: true },
+        { text: "عبارة صحيحة", correct: false },
+        { text: "عبارة خاطئة", correct: true },
        
 ]
 
@@ -316,8 +316,8 @@ const questions = [
     title: "",
     image: "image/question32.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -327,8 +327,8 @@ const questions = [
     title: "",
     image: "image/question33.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: false },
-        { text: "اجابة خاطئة", correct: true },
+        { text: "عبارة صحيحة", correct: false },
+        { text: "عبارة خاطئة", correct: true },
        
 ]
 
@@ -338,8 +338,8 @@ const questions = [
     title: "",
     image: "image/question34.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: false },
-        { text: "اجابة خاطئة", correct: true },
+        { text: "عبارة صحيحة", correct: false },
+        { text: "عبارة خاطئة", correct: true },
        
 ]
 
@@ -349,8 +349,8 @@ const questions = [
     title: "",
     image: "image/question35.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: false },
-        { text: "اجابة خاطئة", correct: true },
+        { text: "عبارة صحيحة", correct: false },
+        { text: "عبارة خاطئة", correct: true },
        
 ]
 
@@ -360,8 +360,8 @@ const questions = [
     title: "",
     image: "image/question36.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: false },
-        { text: "اجابة خاطئة", correct: true },
+        { text: "عبارة صحيحة", correct: false },
+        { text: "عبارة خاطئة", correct: true },
        
 ]
 
@@ -371,8 +371,8 @@ const questions = [
     title: "",
     image: "image/question37.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: false },
-        { text: "اجابة خاطئة", correct: true },
+        { text: "عبارة صحيحة", correct: false },
+        { text: "عبارة خاطئة", correct: true },
        
 ]
 
@@ -382,8 +382,8 @@ const questions = [
     title: "",
     image: "image/question38.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -393,8 +393,8 @@ const questions = [
     title: "",
     image: "image/question39.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: false },
-        { text: "اجابة خاطئة", correct: true },
+        { text: "عبارة صحيحة", correct: false },
+        { text: "عبارة خاطئة", correct: true },
        
 ]
 
@@ -404,8 +404,8 @@ const questions = [
     title: "",
     image: "image/question40.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: false },
-        { text: "اجابة خاطئة", correct: true },
+        { text: "عبارة صحيحة", correct: false },
+        { text: "عبارة خاطئة", correct: true },
        
 ]
 
@@ -415,8 +415,8 @@ const questions = [
     title: "",
     image: "image/question41.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -426,8 +426,8 @@ const questions = [
     title: "",
     image: "image/question42.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: false },
-        { text: "اجابة خاطئة", correct: true },
+        { text: "عبارة صحيحة", correct: false },
+        { text: "عبارة خاطئة", correct: true },
        
 ]
 
@@ -437,8 +437,8 @@ const questions = [
     title: "",
     image: "image/question43.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: false },
-        { text: "اجابة خاطئة", correct: true },
+        { text: "عبارة صحيحة", correct: false },
+        { text: "عبارة خاطئة", correct: true },
        
 ]
 
@@ -496,8 +496,8 @@ const questions = [
     title: "",
     image: "image/question48.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -507,8 +507,8 @@ const questions = [
     title: "",
     image: "image/question49.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -518,8 +518,8 @@ const questions = [
     title: "",
     image: "image/question50.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -529,8 +529,8 @@ const questions = [
     title: "",
     image: "image/question51.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -540,8 +540,8 @@ const questions = [
     title: "",
     image: "image/question52.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -551,8 +551,8 @@ const questions = [
     title: "",
     image: "image/question53.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -562,8 +562,8 @@ const questions = [
     title: "",
     image: "image/question54.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false },
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false },
        
 ]
 
@@ -609,8 +609,8 @@ const questions = [
     title: "",
     image: "image/question58.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false }
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false }
        
 ]
 
@@ -620,8 +620,8 @@ const questions = [
     title: "",
     image: "image/question59.jpg",
     choices: [
-        { text: "اجابة صحيحة", correct: true },
-        { text: "اجابة خاطئة", correct: false }
+        { text: "عبارة صحيحة", correct: true },
+        { text: "عبارة خاطئة", correct: false }
        
 ]
 
@@ -652,7 +652,7 @@ const questions = [
 },
 {
 
-    title: "اختر الاجابة الصحيحة",
+    title: "اختر العبارة الصحيحة",
     image: "image/question62.jpg",
     choices: [
         { text: "الرسم صحيح والمكونات صحيحة", correct: true },
@@ -664,7 +664,7 @@ const questions = [
 },
 {
 
-    title: "اختر الاجابة الصحيحة",
+    title: "اختر العبارة الصحيحة",
     image: "image/question63.jpg",
     choices: [
         { text: "قواعد السلامة والصحة المهنية", correct: true },
@@ -676,7 +676,7 @@ const questions = [
 },
 {
 
-    title: "اختر الاجابة الصحيحة",
+    title: "اختر العبارة الصحيحة",
     image: "image/question64.jpg",
     choices: [
         { text: "قبل القواطع الفرعية", correct: true },
@@ -688,7 +688,7 @@ const questions = [
 },
 {
 
-    title: "اختر الاجابة الصحيحة",
+    title: "اختر العبارة الصحيحة",
     image: "image/question65.jpg",
     choices: [
         { text: "زرادية", correct: true },
@@ -700,7 +700,7 @@ const questions = [
 },
 {
 
-    title: "اختر الاجابة الصحيحة",
+    title: "اختر العبارة الصحيحة",
     image: "image/question66.jpg",
     choices: [
         { text: "النحاس", correct: true },
@@ -712,7 +712,7 @@ const questions = [
 },
 {
 
-    title: "اختر الاجابة الصحيحة",
+    title: "اختر العبارة الصحيحة",
     image: "image/question67.jpg",
     choices: [
         { text: "الرسم صحيح", correct: true },
@@ -770,7 +770,6 @@ const questions = [
 ]
 
 },
-
 
 
 
