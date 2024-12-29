@@ -52,7 +52,7 @@ const questions = [
         choices: [
             { text: "لقم برايز", correct: false },
             { text: "لقم مفاتيح", correct: false },
-            { text: "شلسيه 3 فتحة", correct: true }
+            { text: "شاسيه 3 فتحة", correct: true }
         ]
     },
     {
@@ -196,7 +196,7 @@ const questions = [
         image: "image/question21.jpg",
         choices: [
             { text: "مأخذ تيار كهربي لقمة بريزة ماجيك 10 امبير", correct: true },
-            { text: "بريزة عادية", correct: false },
+            { text: "شاسيه 2 فتحة", correct: false },
             { text: "مأخذ قوى كهربية", correct: false }
     ]
     
@@ -691,8 +691,8 @@ const questions = [
     title: "اختر العبارة الصحيحة",
     image: "image/question65.jpg",
     choices: [
-        { text: "زرادية", correct: true },
-        { text: "مكبس", correct: false },
+        { text: "زرادية", correct: false },
+        { text: "بنسة مكبس", correct: true },
         { text: "مقص صاج", correct: false }
        
 ]
