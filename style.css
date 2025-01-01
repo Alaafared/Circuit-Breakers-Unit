@@ -88,6 +88,9 @@ body {
     display: block;
     width: fit-content;
 }
+a{
+     text-decoration: none
+}
 
 #next-question:hover, #submit-quiz:hover  , a: hover{
     background-color: #0b5ed7;
