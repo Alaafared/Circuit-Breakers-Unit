@@ -89,7 +89,7 @@ body {
     width: fit-content;
 }
 a: link {
-     text-decoration: none
+     text-decoration: none;
 }
 
 #next-question:hover, #submit-quiz:hover  , a: hover{
