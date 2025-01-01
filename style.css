@@ -87,10 +87,9 @@ body {
     transition: background-color 0.3s, transform 0.2s;
     display: block;
     width: fit-content;
+    text-decoration: none;
 }
-a: link {
-     text-decoration: none;
-}
+
 
 #next-question:hover, #submit-quiz:hover  , a: hover{
     background-color: #0b5ed7;
